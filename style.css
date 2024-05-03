@@ -1,0 +1,199 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html body {
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+}
+/* Header Start */
+.top-header {
+    background-color: black;
+    color: white;
+    display: flex;
+    width: auto;
+    height: 70px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 8%;
+}
+
+.top-heading {
+    margin-left: 20%;
+}
+.top-dropdown {
+    margin-left: 20px;
+}
+/* Header End */
+/* Navbar Start */
+.navbar {
+    display: flex;
+    padding: 2% 8%;
+    justify-content: space-between;
+}
+
+.nav-ul {
+    display: flex;
+    list-style: none;
+    column-gap: 55px;
+    margin-right: 12%;
+}
+
+.active {
+    border-bottom: 3px solid #828288;
+    margin-bottom: 20px;
+}
+
+.navbar-right-side {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+form {
+    border-radius: 10px;
+    background-color: #f5f5f5;
+    color: #828288; 
+    padding: 4px 8px;
+    border: none;
+}
+
+i {
+    color: #828288;
+}
+
+input {
+    padding: 8px;
+    border: none;
+    border-radius: 10px;
+    background-color: #f5f5f5;
+    color: #828288;
+}
+
+.icons img {
+    justify-content: center;
+    align-items: center;
+}
+/* Navbar End */
+/* Create an Account Start */
+.signup {
+    margin: 2% 8%;
+    display: flex;
+    justify-content: space-between;
+}
+.signup-left-side img {
+    width: 805px;
+    height: 706px;
+}
+.signup-right-side {
+    width: 805px;
+    height: 781px;
+    padding: 15% 0 0 3%;
+}
+.signup-right-side h2, p {
+    margin-bottom: 20px;
+}
+.btn {
+    margin: 20px 0;
+}
+.create-account {
+    padding: 10px 60px;
+    background-color: #DB4444;
+    color: #f5f5f5;
+    border: none;
+    border-radius: 5px;
+}
+.google-signup {
+    display: flex;
+    padding: 10px 30px 0 30px;
+    background-color: #f5f5f5;
+    color: #0D0D0D;
+    border: none;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+.google-signup img {
+    margin-right: 10px;
+}
+.google-signup p {
+    padding-top: 5px;
+}
+.signup-right-side a {
+    text-decoration: none;
+    color: #0D0D0D;
+}
+.login {
+    padding: 5px;
+    border: none;
+    background-color: #FFFF;
+}
+/* Create an Account End */
+
+
+/* Footer Start */
+.footer{
+    width: 100%;
+    height: 440px;
+    background-color: #0D0D0D;
+    color: #FFFF;
+    padding: 8% 8%;
+    display: flex;
+    justify-content: space-between;
+}
+.executive form {
+    width: 200px;
+    height: 48px;
+    border: 1px solid #f5f5f5;
+    border-radius: 5px;
+    color: #828288; 
+    padding: 4px 8px;
+    background-color: #0D0D0D;
+    margin-top: 10px;
+}
+.executive input {
+    position: relative;
+    background-color: #0D0D0D;
+}
+.executive a {
+    position: absolute;
+    border-radius: 10px;
+    color: #828288; 
+    padding: 8px 8px;
+    left: 260px;
+    background-color: #0D0D0D;
+}
+.executive h2 {
+    margin-left: 10px;
+}
+.copyright {
+    background-color: #0D0D0D;
+    text-align: center;
+    padding: 2% 0%;
+}
+.account ul li {
+    list-style: none;
+    margin-top: 20px;
+}
+
+.quick-link ul li {
+    list-style: none;
+    margin-top: 20px;
+}
+.download-app p {
+    margin-top: 20px;
+}
+.apps {
+    padding: 10px 10px;
+    display: flex;
+}
+.play-app-store a {
+    margin: 5px 10px;
+}
+.social-icons img {
+    margin-right: 20px;
+}
+
+
+/* Footer End */
